@@ -7,28 +7,46 @@ sites:
     url: $plex
   - name: Frontend
     url: $frontend
+    headers:
+    - "CF-Access-Client-Id: $CFID"
+    - "CF-Access-Client-Secret: $CFSEC"
       __dangerous__disable_verify_peer: true
       __dangerous__insecure: true
   - name: Backend Control Panel
     url: $backendcp
+    headers:
+    - "CF-Access-Client-Id: $CFID"
+    - "CF-Access-Client-Secret: $CFSEC"
       __dangerous__disable_verify_peer: true
       __dangerous__insecure: true
   - name: TV Backend
     url: $tvbkend
+    headers:
+    - "CF-Access-Client-Id: $CFID"
+    - "CF-Access-Client-Secret: $CFSEC"
       __dangerous__disable_verify_peer: true
       __dangerous__insecure: true
   - name: Movie Backend
     url: $moviebkend
+    headers:
+    - "CF-Access-Client-Id: $CFID"
+    - "CF-Access-Client-Secret: $CFSEC"
       __dangerous__disable_verify_peer: true
       __dangerous__insecure: true
   - name: Requester
     url: https://request.vsnet.uk
   - name: Downloader Backend 1
     url: $dlbk1
+    headers:
+    - "CF-Access-Client-Id: $CFID"
+    - "CF-Access-Client-Secret: $CFSEC"
       __dangerous__disable_verify_peer: true
       __dangerous__insecure: true
   - name: Downloader Backend 2
     url: $dlbk2
+    headers:
+    - "CF-Access-Client-Id: $CFID"
+    - "CF-Access-Client-Secret: $CFSEC"
       __dangerous__disable_verify_peer: true
       __dangerous__insecure: true
 
