@@ -5,19 +5,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "plex",
     "status": "down",
-    "uptime": "7.41%",
-    "uptimeDay": "7.41%",
-    "uptimeWeek": "7.41%",
-    "uptimeMonth": "7.41%",
-    "uptimeYear": "7.41%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 85,
     "timeDay": 85,
     "timeWeek": 85,
     "timeMonth": 85,
     "timeYear": 85,
-    "dailyMinutesDown": {
-      "2023-09-12": 35
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Frontend",
@@ -25,19 +23,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "frontend",
     "status": "down",
-    "uptime": "80.19%",
-    "uptimeDay": "80.19%",
-    "uptimeWeek": "80.19%",
-    "uptimeMonth": "80.19%",
-    "uptimeYear": "80.19%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 250,
     "timeDay": 250,
     "timeWeek": 250,
     "timeMonth": 250,
     "timeYear": 250,
-    "dailyMinutesDown": {
-      "2023-09-12": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Backend Control Panel",
@@ -45,19 +41,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "backend-control-panel",
     "status": "down",
-    "uptime": "7.49%",
-    "uptimeDay": "7.49%",
-    "uptimeWeek": "7.49%",
-    "uptimeMonth": "7.49%",
-    "uptimeYear": "7.49%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 250,
     "timeDay": 250,
     "timeWeek": 250,
     "timeMonth": 250,
     "timeYear": 250,
-    "dailyMinutesDown": {
-      "2023-09-12": 35
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "TV Backend",
@@ -65,19 +59,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tv-backend",
     "status": "down",
-    "uptime": "7.44%",
-    "uptimeDay": "7.44%",
-    "uptimeWeek": "7.44%",
-    "uptimeMonth": "7.44%",
-    "uptimeYear": "7.44%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 90,
     "timeDay": 90,
     "timeWeek": 90,
     "timeMonth": 90,
     "timeYear": 90,
-    "dailyMinutesDown": {
-      "2023-09-12": 35
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Movie Backend",
@@ -85,19 +77,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "movie-backend",
     "status": "down",
-    "uptime": "27.42%",
-    "uptimeDay": "27.42%",
-    "uptimeWeek": "27.42%",
-    "uptimeMonth": "27.42%",
-    "uptimeYear": "27.42%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {
-      "2023-09-12": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Requester",
@@ -105,19 +95,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/request.vsnet.uk.ico",
     "slug": "requester",
     "status": "down",
-    "uptime": "27.40%",
-    "uptimeDay": "27.40%",
-    "uptimeWeek": "27.40%",
-    "uptimeMonth": "27.40%",
-    "uptimeYear": "27.40%",
-    "time": 62,
-    "timeDay": 62,
-    "timeWeek": 62,
-    "timeMonth": 62,
-    "timeYear": 62,
-    "dailyMinutesDown": {
-      "2023-09-12": 7
-    }
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
+    "time": 79,
+    "timeDay": 79,
+    "timeWeek": 79,
+    "timeMonth": 79,
+    "timeYear": 79,
+    "dailyMinutesDown": {}
   },
   {
     "name": "Downloader Backend 1",
@@ -125,19 +113,17 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "downloader-backend-1",
     "status": "down",
-    "uptime": "27.51%",
-    "uptimeDay": "27.51%",
-    "uptimeWeek": "27.51%",
-    "uptimeMonth": "27.51%",
-    "uptimeYear": "27.51%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {
-      "2023-09-12": 7
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "Downloader Backend 2",
@@ -145,18 +131,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "downloader-backend-2",
     "status": "down",
-    "uptime": "27.65%",
-    "uptimeDay": "27.65%",
-    "uptimeWeek": "27.65%",
-    "uptimeMonth": "27.65%",
-    "uptimeYear": "27.65%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 0,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 0,
-    "dailyMinutesDown": {
-      "2023-09-12": 7
-    }
+    "dailyMinutesDown": {}
   }
 ]
