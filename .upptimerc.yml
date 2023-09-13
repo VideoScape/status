@@ -7,6 +7,8 @@ sites:
     url: $PLEX
   - name: Frontend
     url: $FRONTEND
+    expectedStatusCodes:
+      -403
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -21,6 +23,8 @@ sites:
     __dangerous__insecure: true
   - name: TV Backend
     url: $TVBKEND
+    expectedStatusCodes:
+      -403
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -28,6 +32,8 @@ sites:
     __dangerous__insecure: true
   - name: Movie Backend
     url: $MOVIEBKEND
+    expectedStatusCodes:
+      -403
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -35,8 +41,12 @@ sites:
     __dangerous__insecure: true
   - name: Requester
     url: https://request.vsnet.uk/login
+    expectedStatusCodes:
+      -403
   - name: Downloader Backend 1
     url: $DLBK1
+    expectedStatusCodes:
+      -403
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -44,6 +54,8 @@ sites:
     __dangerous__insecure: true
   - name: Downloader Backend 2
     url: $DLBK2
+    expectedStatusCodes:
+      -403
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
