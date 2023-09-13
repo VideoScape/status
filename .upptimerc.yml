@@ -8,7 +8,8 @@ sites:
   - name: Frontend
     url: $FRONTEND
     expectedStatusCodes:
-      -403
+      - 403
+      - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -16,6 +17,9 @@ sites:
     __dangerous__insecure: true
   - name: Backend Control Panel
     url: $BACKENDCP
+    expectedStatusCodes:
+      - 403
+      - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -24,7 +28,8 @@ sites:
   - name: TV Backend
     url: $TVBKEND
     expectedStatusCodes:
-      -403
+      - 403
+      - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -33,7 +38,8 @@ sites:
   - name: Movie Backend
     url: $MOVIEBKEND
     expectedStatusCodes:
-      -403
+      - 403
+      - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -42,11 +48,13 @@ sites:
   - name: Requester
     url: https://request.vsnet.uk/login
     expectedStatusCodes:
-      -403
+      - 403
+      - 200
   - name: Downloader Backend 1
     url: $DLBK1
     expectedStatusCodes:
-      -403
+      - 403
+      - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -55,7 +63,8 @@ sites:
   - name: Downloader Backend 2
     url: $DLBK2
     expectedStatusCodes:
-      -403
+      - 403
+      - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
