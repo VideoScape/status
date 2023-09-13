@@ -4,30 +4,30 @@ repo: status # The name of this repository
 
 sites:
   - name: Plex
-    url: $plex
+    url: $PLEX
   - name: Frontend
-    url: $frontend
+    url: $FRONTEND
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Backend Control Panel
-    url: $backendcp
+    url: $BACKENDCP
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: TV Backend
-    url: $tvbkend
+    url: $TVBKEND
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Movie Backend
-    url: $moviebkend
+    url: $MOVIEBKEND
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
@@ -36,14 +36,14 @@ sites:
   - name: Requester
     url: https://request.vsnet.uk
   - name: Downloader Backend 1
-    url: $dlbk1
+    url: $DLBK1
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Downloader Backend 2
-    url: $dlbk2
+    url: $DLBK2
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
