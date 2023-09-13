@@ -1,7 +1,7 @@
 # Change these first
 owner: videoscape # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
-
+user-agent: VSN-Status-Agent
 sites:
   - name: Plex
     url: $PLEX
@@ -10,7 +10,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN Status Agent'"
+    - "User-Agent' => 'VSN-Status-Agent'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Frontend
@@ -20,7 +20,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN Status Agent'"
+    - "User-Agent' => 'VSN-Status-Agent'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Backend Control Panel
@@ -30,7 +30,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN Status Agent'"
+    - "User-Agent' => 'VSN-Status-Agent'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: TV Backend
@@ -40,7 +40,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN Status Agent'"
+    - "User-Agent' => 'VSN-Status-Agent'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Movie Backend
@@ -50,7 +50,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN Status Agent'"
+    - "User-Agent' => 'VSN-Status-Agent'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Requester
@@ -58,7 +58,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN Status Agent'"
+    - "User-Agent' => 'VSN-Status-Agent'"
     expectedStatusCodes:
       - 200
   - name: Downloader Backend 1
@@ -68,7 +68,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN Status Agent'"
+    - "User-Agent' => 'VSN-Status-Agent'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Downloader Backend 2
@@ -78,7 +78,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN Status Agent'"
+    - "User-Agent' => 'VSN-Status-Agent'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
 
@@ -86,11 +86,12 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  #cname: demo.upptime.js.org
-  baseUrl: /status
+  cname: status.vsnet.uk
+  #baseUrl: /status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Versus Networks Status
   theme: dark
+  
   #introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
   #introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
   navbar:
