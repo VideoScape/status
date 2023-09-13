@@ -7,6 +7,12 @@ sites:
     url: $PLEX
     expectedStatusCodes:
       - 200
+    headers:
+    - "CF-Access-Client-Id: $CFID"
+    - "CF-Access-Client-Secret: $CFSEC"
+    - "User-Agent' => 'pulsetic.com (+https://pulsetic.com)'"
+    __dangerous__disable_verify_peer: true
+    __dangerous__insecure: true
   - name: Frontend
     url: $FRONTEND
     expectedStatusCodes:
@@ -14,6 +20,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
+    - "User-Agent' => 'pulsetic.com (+https://pulsetic.com)'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Backend Control Panel
@@ -23,6 +30,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
+    - "User-Agent' => 'pulsetic.com (+https://pulsetic.com)'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: TV Backend
@@ -32,6 +40,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
+    - "User-Agent' => 'pulsetic.com (+https://pulsetic.com)'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Movie Backend
@@ -41,10 +50,15 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
+    - "User-Agent' => 'pulsetic.com (+https://pulsetic.com)'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Requester
     url: https://request.vsnet.uk/login
+    headers:
+    - "CF-Access-Client-Id: $CFID"
+    - "CF-Access-Client-Secret: $CFSEC"
+    - "User-Agent' => 'pulsetic.com (+https://pulsetic.com)'"
     expectedStatusCodes:
       - 200
   - name: Downloader Backend 1
@@ -54,6 +68,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
+    - "User-Agent' => 'pulsetic.com (+https://pulsetic.com)'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Downloader Backend 2
@@ -63,6 +78,7 @@ sites:
     headers:
     - "CF-Access-Client-Id: $CFID"
     - "CF-Access-Client-Secret: $CFSEC"
+    - "User-Agent' => 'pulsetic.com (+https://pulsetic.com)'"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
 
