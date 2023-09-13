@@ -1,7 +1,7 @@
 url: $MOVIEBKEND
-status: down
+status: up
 code: 403
-responseTime: 64
-lastUpdated: 2023-09-13T01:11:02.060Z
+responseTime: 95
+lastUpdated: 2023-09-13T01:20:50.141Z
 startTime: 2023-09-12T22:48:10.753Z
 generator: Upptime <https://github.com/upptime/upptime>
