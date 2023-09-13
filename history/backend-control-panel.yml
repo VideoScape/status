@@ -1,7 +1,7 @@
 url: $BACKENDCP
-status: down
-code: 400
-responseTime: 283
-lastUpdated: 2023-09-13T13:36:05.882Z
+status: up
+code: 200
+responseTime: 377
+lastUpdated: 2023-09-13T13:38:47.273Z
 startTime: 2023-09-12T22:20:45.947Z
 generator: Upptime <https://github.com/upptime/upptime>
