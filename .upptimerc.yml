@@ -6,12 +6,10 @@ sites:
   - name: Plex
     url: $PLEX
     expectedStatusCodes:
-      - 403
       - 200
   - name: Frontend
     url: $FRONTEND
     expectedStatusCodes:
-      - 403
       - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
@@ -21,7 +19,6 @@ sites:
   - name: Backend Control Panel
     url: $BACKENDCP
     expectedStatusCodes:
-      - 403
       - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
@@ -31,7 +28,6 @@ sites:
   - name: TV Backend
     url: $TVBKEND
     expectedStatusCodes:
-      - 403
       - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
@@ -41,7 +37,6 @@ sites:
   - name: Movie Backend
     url: $MOVIEBKEND
     expectedStatusCodes:
-      - 403
       - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
@@ -51,12 +46,10 @@ sites:
   - name: Requester
     url: https://request.vsnet.uk/login
     expectedStatusCodes:
-      - 403
       - 200
   - name: Downloader Backend 1
     url: $DLBK1
     expectedStatusCodes:
-      - 403
       - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
@@ -66,7 +59,6 @@ sites:
   - name: Downloader Backend 2
     url: $DLBK2
     expectedStatusCodes:
-      - 403
       - 200
     headers:
     - "CF-Access-Client-Id: $CFID"
