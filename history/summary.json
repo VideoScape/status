@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "plex",
     "status": "down",
-    "uptime": "27.19%",
-    "uptimeDay": "27.19%",
-    "uptimeWeek": "27.19%",
-    "uptimeMonth": "27.19%",
-    "uptimeYear": "27.19%",
+    "uptime": "26.86%",
+    "uptimeDay": "26.86%",
+    "uptimeWeek": "26.86%",
+    "uptimeMonth": "26.86%",
+    "uptimeYear": "26.86%",
     "time": 93,
     "timeDay": 93,
     "timeWeek": 93,
     "timeMonth": 93,
     "timeYear": 93,
     "dailyMinutesDown": {
-      "2023-09-13": 569
+      "2023-09-13": 578
     }
   },
   {
@@ -48,11 +48,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 476,
-    "timeDay": 476,
-    "timeWeek": 476,
-    "timeMonth": 476,
-    "timeYear": 476,
+    "time": 477,
+    "timeDay": 477,
+    "timeWeek": 477,
+    "timeMonth": 477,
+    "timeYear": 477,
     "dailyMinutesDown": {}
   },
   {
@@ -61,18 +61,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tv-backend",
     "status": "down",
-    "uptime": "27.18%",
-    "uptimeDay": "27.18%",
-    "uptimeWeek": "27.18%",
-    "uptimeMonth": "27.18%",
-    "uptimeYear": "27.18%",
+    "uptime": "26.86%",
+    "uptimeDay": "26.86%",
+    "uptimeWeek": "26.86%",
+    "uptimeMonth": "26.86%",
+    "uptimeYear": "26.86%",
     "time": 80,
     "timeDay": 80,
     "timeWeek": 80,
     "timeMonth": 80,
     "timeYear": 80,
     "dailyMinutesDown": {
-      "2023-09-13": 569
+      "2023-09-13": 578
     }
   },
   {
@@ -81,18 +81,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "movie-backend",
     "status": "down",
-    "uptime": "24.54%",
-    "uptimeDay": "24.54%",
-    "uptimeWeek": "24.54%",
-    "uptimeMonth": "24.54%",
-    "uptimeYear": "24.54%",
+    "uptime": "24.24%",
+    "uptimeDay": "24.24%",
+    "uptimeWeek": "24.24%",
+    "uptimeMonth": "24.24%",
+    "uptimeYear": "24.24%",
     "time": 68,
     "timeDay": 68,
     "timeWeek": 68,
     "timeMonth": 68,
     "timeYear": 68,
     "dailyMinutesDown": {
-      "2023-09-13": 569
+      "2023-09-13": 578
     }
   },
   {
@@ -101,18 +101,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/request.vsnet.uk.ico",
     "slug": "requester",
     "status": "down",
-    "uptime": "24.54%",
-    "uptimeDay": "24.54%",
-    "uptimeWeek": "24.54%",
-    "uptimeMonth": "24.54%",
-    "uptimeYear": "24.54%",
+    "uptime": "24.24%",
+    "uptimeDay": "24.24%",
+    "uptimeWeek": "24.24%",
+    "uptimeMonth": "24.24%",
+    "uptimeYear": "24.24%",
     "time": 77,
     "timeDay": 77,
     "timeWeek": 77,
     "timeMonth": 77,
     "timeYear": 77,
     "dailyMinutesDown": {
-      "2023-09-13": 569
+      "2023-09-13": 578
     }
   },
   {
@@ -121,18 +121,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "downloader-backend-1",
     "status": "down",
-    "uptime": "24.54%",
-    "uptimeDay": "24.54%",
-    "uptimeWeek": "24.54%",
-    "uptimeMonth": "24.54%",
-    "uptimeYear": "24.54%",
+    "uptime": "24.24%",
+    "uptimeDay": "24.24%",
+    "uptimeWeek": "24.24%",
+    "uptimeMonth": "24.24%",
+    "uptimeYear": "24.24%",
     "time": 65,
     "timeDay": 65,
     "timeWeek": 65,
     "timeMonth": 65,
     "timeYear": 65,
     "dailyMinutesDown": {
-      "2023-09-13": 569
+      "2023-09-13": 578
     }
   },
   {
@@ -141,18 +141,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "downloader-backend-2",
     "status": "down",
-    "uptime": "24.55%",
-    "uptimeDay": "24.55%",
-    "uptimeWeek": "24.55%",
-    "uptimeMonth": "24.55%",
-    "uptimeYear": "24.55%",
-    "time": 70,
-    "timeDay": 70,
-    "timeWeek": 70,
-    "timeMonth": 70,
-    "timeYear": 70,
+    "uptime": "24.24%",
+    "uptimeDay": "24.24%",
+    "uptimeWeek": "24.24%",
+    "uptimeMonth": "24.24%",
+    "uptimeYear": "24.24%",
+    "time": 71,
+    "timeDay": 71,
+    "timeWeek": 71,
+    "timeMonth": 71,
+    "timeYear": 71,
     "dailyMinutesDown": {
-      "2023-09-13": 569
+      "2023-09-13": 578
     }
   }
 ]
