@@ -5,18 +5,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "plex",
     "status": "down",
-    "uptime": "22.90%",
-    "uptimeDay": "22.90%",
-    "uptimeWeek": "22.90%",
-    "uptimeMonth": "22.90%",
-    "uptimeYear": "22.90%",
+    "uptime": "22.85%",
+    "uptimeDay": "22.85%",
+    "uptimeWeek": "22.85%",
+    "uptimeMonth": "22.85%",
+    "uptimeYear": "22.85%",
     "time": 92,
     "timeDay": 92,
     "timeWeek": 92,
     "timeMonth": 92,
     "timeYear": 92,
     "dailyMinutesDown": {
-      "2023-09-13": 715
+      "2023-09-13": 718
     }
   },
   {
@@ -60,19 +60,19 @@
     "url": "$TVBKEND",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "tv-backend",
-    "status": "down",
-    "uptime": "22.90%",
-    "uptimeDay": "22.90%",
-    "uptimeWeek": "22.90%",
-    "uptimeMonth": "22.90%",
-    "uptimeYear": "22.90%",
-    "time": 81,
-    "timeDay": 81,
-    "timeWeek": 81,
-    "timeMonth": 81,
-    "timeYear": 81,
+    "status": "up",
+    "uptime": "22.84%",
+    "uptimeDay": "22.84%",
+    "uptimeWeek": "22.84%",
+    "uptimeMonth": "22.84%",
+    "uptimeYear": "22.84%",
+    "time": 86,
+    "timeDay": 86,
+    "timeWeek": 86,
+    "timeMonth": 86,
+    "timeYear": 86,
     "dailyMinutesDown": {
-      "2023-09-13": 715
+      "2023-09-13": 718
     }
   },
   {
@@ -80,19 +80,19 @@
     "url": "$MOVIEBKEND",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "movie-backend",
-    "status": "down",
-    "uptime": "20.56%",
-    "uptimeDay": "20.56%",
-    "uptimeWeek": "20.56%",
-    "uptimeMonth": "20.56%",
-    "uptimeYear": "20.56%",
-    "time": 68,
-    "timeDay": 68,
-    "timeWeek": 68,
-    "timeMonth": 68,
-    "timeYear": 68,
+    "status": "up",
+    "uptime": "20.50%",
+    "uptimeDay": "20.50%",
+    "uptimeWeek": "20.50%",
+    "uptimeMonth": "20.50%",
+    "uptimeYear": "20.50%",
+    "time": 74,
+    "timeDay": 74,
+    "timeWeek": 74,
+    "timeMonth": 74,
+    "timeYear": 74,
     "dailyMinutesDown": {
-      "2023-09-13": 715
+      "2023-09-13": 718
     }
   },
   {
@@ -100,19 +100,19 @@
     "url": "https://request.vsnet.uk/login",
     "icon": "https://icons.duckduckgo.com/ip3/request.vsnet.uk.ico",
     "slug": "requester",
-    "status": "down",
-    "uptime": "20.56%",
-    "uptimeDay": "20.56%",
-    "uptimeWeek": "20.56%",
-    "uptimeMonth": "20.56%",
-    "uptimeYear": "20.56%",
-    "time": 79,
-    "timeDay": 79,
-    "timeWeek": 79,
-    "timeMonth": 79,
-    "timeYear": 79,
+    "status": "up",
+    "uptime": "20.50%",
+    "uptimeDay": "20.50%",
+    "uptimeWeek": "20.50%",
+    "uptimeMonth": "20.50%",
+    "uptimeYear": "20.50%",
+    "time": 85,
+    "timeDay": 85,
+    "timeWeek": 85,
+    "timeMonth": 85,
+    "timeYear": 85,
     "dailyMinutesDown": {
-      "2023-09-13": 715
+      "2023-09-13": 718
     }
   },
   {
@@ -120,19 +120,19 @@
     "url": "$DLBK1",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "downloader-backend-1",
-    "status": "down",
-    "uptime": "20.56%",
-    "uptimeDay": "20.56%",
-    "uptimeWeek": "20.56%",
-    "uptimeMonth": "20.56%",
-    "uptimeYear": "20.56%",
-    "time": 68,
-    "timeDay": 68,
-    "timeWeek": 68,
-    "timeMonth": 68,
-    "timeYear": 68,
+    "status": "up",
+    "uptime": "20.49%",
+    "uptimeDay": "20.49%",
+    "uptimeWeek": "20.49%",
+    "uptimeMonth": "20.49%",
+    "uptimeYear": "20.49%",
+    "time": 77,
+    "timeDay": 77,
+    "timeWeek": 77,
+    "timeMonth": 77,
+    "timeYear": 77,
     "dailyMinutesDown": {
-      "2023-09-13": 715
+      "2023-09-13": 718
     }
   },
   {
@@ -140,19 +140,19 @@
     "url": "$DLBK2",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "downloader-backend-2",
-    "status": "down",
-    "uptime": "20.56%",
-    "uptimeDay": "20.56%",
-    "uptimeWeek": "20.56%",
-    "uptimeMonth": "20.56%",
-    "uptimeYear": "20.56%",
-    "time": 69,
-    "timeDay": 69,
-    "timeWeek": 69,
-    "timeMonth": 69,
-    "timeYear": 69,
+    "status": "up",
+    "uptime": "20.48%",
+    "uptimeDay": "20.48%",
+    "uptimeWeek": "20.48%",
+    "uptimeMonth": "20.48%",
+    "uptimeYear": "20.48%",
+    "time": 75,
+    "timeDay": 75,
+    "timeWeek": 75,
+    "timeMonth": 75,
+    "timeYear": 75,
     "dailyMinutesDown": {
-      "2023-09-13": 715
+      "2023-09-13": 718
     }
   }
 ]
