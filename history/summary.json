@@ -62,7 +62,7 @@
     "slug": "tv-backend",
     "status": "up",
     "uptime": "87.62%",
-    "uptimeDay": "88.81%",
+    "uptimeDay": "89.46%",
     "uptimeWeek": "82.80%",
     "uptimeMonth": "87.62%",
     "uptimeYear": "87.62%",
@@ -148,11 +148,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "96.34%",
     "uptimeYear": "96.34%",
-    "time": 448,
+    "time": 449,
     "timeDay": 443,
     "timeWeek": 469,
-    "timeMonth": 448,
-    "timeYear": 448,
+    "timeMonth": 449,
+    "timeYear": 449,
     "dailyMinutesDown": {
       "2023-09-13": 726
     }
