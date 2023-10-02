@@ -1,6 +1,5 @@
-# Change these first
-owner: videoscape # Your GitHub organization or username, where this repository lives
-repo: status # The name of this repository
+owner: videoscape
+repo: status
 user-agent: VSN-Status-Agent
 sites:
   - name: Plex
@@ -8,19 +7,19 @@ sites:
     expectedStatusCodes:
       - 200
     headers:
-    - "CF-Access-Client-Id: $CFID"
-    - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN-Status-Agent'"
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - User-Agent' => 'VSN-Status-Agent'
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
-   - name: Support Site
+  - name: Support Site
     url: https://help.vsnet.uk
     expectedStatusCodes:
       - 200
     headers:
-    - "CF-Access-Client-Id: $CFID"
-    - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN-Status-Agent'"
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - User-Agent' => 'VSN-Status-Agent'
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Frontend
@@ -28,9 +27,9 @@ sites:
     expectedStatusCodes:
       - 200
     headers:
-    - "CF-Access-Client-Id: $CFID"
-    - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN-Status-Agent'"
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - User-Agent' => 'VSN-Status-Agent'
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Backend Control Panel
@@ -38,9 +37,9 @@ sites:
     expectedStatusCodes:
       - 200
     headers:
-    - "CF-Access-Client-Id: $CFID"
-    - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN-Status-Agent'"
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - User-Agent' => 'VSN-Status-Agent'
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: TV Backend
@@ -48,9 +47,9 @@ sites:
     expectedStatusCodes:
       - 200
     headers:
-    - "CF-Access-Client-Id: $CFID"
-    - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN-Status-Agent'"
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - User-Agent' => 'VSN-Status-Agent'
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Movie Backend
@@ -58,17 +57,17 @@ sites:
     expectedStatusCodes:
       - 200
     headers:
-    - "CF-Access-Client-Id: $CFID"
-    - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN-Status-Agent'"
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - User-Agent' => 'VSN-Status-Agent'
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Requester
     url: https://request.vsnet.uk/login
     headers:
-    - "CF-Access-Client-Id: $CFID"
-    - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN-Status-Agent'"
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - User-Agent' => 'VSN-Status-Agent'
     expectedStatusCodes:
       - 200
   - name: Downloader Backend 1
@@ -76,9 +75,9 @@ sites:
     expectedStatusCodes:
       - 200
     headers:
-    - "CF-Access-Client-Id: $CFID"
-    - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN-Status-Agent'"
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - User-Agent' => 'VSN-Status-Agent'
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Downloader Backend 2
@@ -86,39 +85,21 @@ sites:
     expectedStatusCodes:
       - 200
     headers:
-    - "CF-Access-Client-Id: $CFID"
-    - "CF-Access-Client-Secret: $CFSEC"
-    - "User-Agent' => 'VSN-Status-Agent'"
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - User-Agent' => 'VSN-Status-Agent'
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
-
-
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.vsnet.uk
-  #baseUrl: /status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Versus Networks Status
   theme: dark
-  
-  #introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  #introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
-  #navbar:
-  #  - title: Status
-  #    href: /
-  #  - title: GitHub
-  #    href: https://github.com/$OWNER/$REPO
-      
 workflowSchedule:
   graphs: "*/5 * * * *"
   responseTime: "*/5 * * * *"
-  staticSite: "0 1 * * *"
+  staticSite: 0 1 * * *
   summary: "*/5 * * * *"
-  updateTemplate: "0 0 * * *"
-  updates: "0 3 * * *"
+  updateTemplate: 0 0 * * *
+  updates: 0 3 * * *
   uptime: "*/5 * * * *"
-
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
