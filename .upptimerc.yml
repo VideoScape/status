@@ -95,11 +95,11 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Versus Networks Status
   theme: dark
-workflowSchedule:
-  graphs: "*/8 * * * *"
-  responseTime: "*/8 * * * *"
-  staticSite: 0 1 * * *
-  summary: "*/8 * * * *"
-  updateTemplate: 0 0 * * *
-  updates: 0 3 * * *
-  uptime: "*/8 * * * *"
+#workflowSchedule:
+#  graphs: "*/8 * * * *"
+#  responseTime: "*/8 * * * *"
+#  staticSite: 0 1 * * *
+#  summary: "*/8 * * * *"
+#  updateTemplate: 0 0 * * *
+#  updates: 0 3 * * *
+#  uptime: "*/8 * * * *"
