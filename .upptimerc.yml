@@ -95,6 +95,10 @@ status-website:
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Versus Networks Status
   theme: dark
+  NOTIFICATION_EMAIL: true
+  NOTIFICATION_EMAIL_SMTP: true
+  NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
+  NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
 #workflowSchedule:
 #  graphs: "*/8 * * * *"
 #  responseTime: "*/8 * * * *"
