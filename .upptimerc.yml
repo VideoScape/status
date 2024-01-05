@@ -4,6 +4,12 @@ user-agent: VSN-Status-Agent
 sites:
   - name: Plex
     url: $PLEX
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
+    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_SLACK_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -14,6 +20,12 @@ sites:
     __dangerous__insecure: true
   - name: Support Site
     url: https://help.vsnet.uk
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
+    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_SLACK_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -24,6 +36,12 @@ sites:
     __dangerous__insecure: true
   - name: Frontend
     url: $FRONTEND
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
+    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_SLACK_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -34,6 +52,12 @@ sites:
     __dangerous__insecure: true
   - name: Backend Control Panel
     url: $BACKENDCP
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
+    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_SLACK_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -54,6 +78,12 @@ sites:
     __dangerous__insecure: true
   - name: Movie Backend
     url: $MOVIEBKEND
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
+    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_SLACK_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -72,6 +102,12 @@ sites:
       - 200
   - name: Downloader Backend 1
     url: $DLBK1
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
+    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_SLACK_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -92,6 +128,12 @@ sites:
     __dangerous__insecure: true
   - name: Indexer and VPN Service
     url: $INDEXER
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
+    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_SLACK_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -102,6 +144,12 @@ sites:
     __dangerous__insecure: true
   - name: Analytics Service
     url: $ANALYTICS
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
+    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_SLACK_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -119,6 +167,8 @@ status-website:
   NOTIFICATION_EMAIL_SMTP: true
   NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
   NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
+  NOTIFICATION_DISCORD: true
+  NOTIFICATION_SLACK_WEBHOOK: true
 #workflowSchedule:
 #  graphs: "*/8 * * * *"
 #  responseTime: "*/8 * * * *"
