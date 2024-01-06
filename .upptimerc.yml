@@ -6,8 +6,6 @@ sites:
     url: $PLEX
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
-    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
-    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
     NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
@@ -22,8 +20,6 @@ sites:
     url: https://help.vsnet.uk
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
-    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
-    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
     NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
@@ -38,8 +34,6 @@ sites:
     url: $FRONTEND
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
-    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
-    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
     NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
@@ -54,8 +48,6 @@ sites:
     url: $BACKENDCP
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
-    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
-    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
     NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
@@ -80,8 +72,6 @@ sites:
     url: $MOVIEBKEND
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
-    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
-    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
     NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
@@ -104,8 +94,6 @@ sites:
     url: $DLBK1
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
-    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
-    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
     NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
@@ -130,8 +118,6 @@ sites:
     url: $INDEXER
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
-    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
-    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
     NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
@@ -146,8 +132,6 @@ sites:
     url: $ANALYTICS
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
-    NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
-    NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
     NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
@@ -165,8 +149,6 @@ status-website:
   theme: dark
   NOTIFICATION_EMAIL: true
   NOTIFICATION_EMAIL_SMTP: true
-  NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
-  NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
   NOTIFICATION_DISCORD: true
   NOTIFICATION_DISCORD_WEBHOOK: true
 #workflowSchedule:
