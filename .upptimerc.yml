@@ -9,7 +9,7 @@ sites:
     NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
     NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
-    NOTIFICATION_SLACK_WEBHOOK: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -25,7 +25,7 @@ sites:
     NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
     NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
-    NOTIFICATION_SLACK_WEBHOOK: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -41,7 +41,7 @@ sites:
     NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
     NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
-    NOTIFICATION_SLACK_WEBHOOK: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -57,7 +57,7 @@ sites:
     NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
     NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
-    NOTIFICATION_SLACK_WEBHOOK: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -83,7 +83,7 @@ sites:
     NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
     NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
-    NOTIFICATION_SLACK_WEBHOOK: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -107,7 +107,7 @@ sites:
     NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
     NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
-    NOTIFICATION_SLACK_WEBHOOK: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -133,7 +133,7 @@ sites:
     NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
     NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
-    NOTIFICATION_SLACK_WEBHOOK: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -149,7 +149,7 @@ sites:
     NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
     NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
     NOTIFICATION_DISCORD: true
-    NOTIFICATION_SLACK_WEBHOOK: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
     expectedStatusCodes:
       - 200
     headers:
@@ -168,7 +168,7 @@ status-website:
   NOTIFICATION_EMAIL_FROM: 'service@vsnet.uk'
   NOTIFICATION_EMAIL_TO: 'p8ki2ri5@anonr.uk'
   NOTIFICATION_DISCORD: true
-  NOTIFICATION_SLACK_WEBHOOK: true
+  NOTIFICATION_DISCORD_WEBHOOK: true
 #workflowSchedule:
 #  graphs: "*/8 * * * *"
 #  responseTime: "*/8 * * * *"
