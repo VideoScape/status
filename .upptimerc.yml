@@ -87,7 +87,7 @@ sites:
     headers:
       - "CF-Access-Client-Id: $CFID"
       - "CF-Access-Client-Secret: $CFSEC"
-      - ""User-Agent": "VSN-Status-Agent"
+      - "User-Agent": "VSN-Status-Agent"
     expectedStatusCodes:
       - 200
   - name: Downloader Backend 1
