@@ -16,20 +16,20 @@ sites:
       - "User-Agent: VSN-Status-Agent"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
-  - name: Support Site
-    url: https://help.vsnet.uk
-    NOTIFICATION_EMAIL: true
-    NOTIFICATION_EMAIL_SMTP: true
-    NOTIFICATION_DISCORD: true
-    NOTIFICATION_DISCORD_WEBHOOK: true
-    expectedStatusCodes:
-      - 200
-    headers:
-      - "CF-Access-Client-Id: $CFID"
-      - "CF-Access-Client-Secret: $CFSEC"
-      - "User-Agent: VSN-Status-Agent"
-    __dangerous__disable_verify_peer: true
-    __dangerous__insecure: true
+ # - name: Support Site
+ #   url: https://help.vsnet.uk
+ #   NOTIFICATION_EMAIL: true
+ #   NOTIFICATION_EMAIL_SMTP: true
+ #   NOTIFICATION_DISCORD: true
+ #   NOTIFICATION_DISCORD_WEBHOOK: true
+ #   expectedStatusCodes:
+ #     - 200
+ #   headers:
+ #     - "CF-Access-Client-Id: $CFID"
+ #     - "CF-Access-Client-Secret: $CFSEC"
+ #     - "User-Agent: VSN-Status-Agent"
+ #   __dangerous__disable_verify_peer: true
+ #   __dangerous__insecure: true
   - name: Frontend
     url: $FRONTEND
     NOTIFICATION_EMAIL: true
