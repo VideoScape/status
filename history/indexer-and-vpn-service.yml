@@ -1,7 +1,7 @@
 url: $INDEXER
-status: down
-code: 502
-responseTime: 423
-lastUpdated: 2024-05-27T12:59:29.006Z
+status: up
+code: 200
+responseTime: 374
+lastUpdated: 2024-05-27T13:10:15.603Z
 startTime: 2024-01-05T23:20:41.473Z
 generator: Upptime <https://github.com/upptime/upptime>
