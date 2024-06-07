@@ -1,7 +1,7 @@
 url: $TVBKEND
-status: down
-code: 502
-responseTime: 2107
-lastUpdated: 2024-06-07T14:35:04.386Z
+status: up
+code: 200
+responseTime: 418
+lastUpdated: 2024-06-07T14:43:05.983Z
 startTime: 2023-09-12T22:20:48.622Z
 generator: Upptime <https://github.com/upptime/upptime>
