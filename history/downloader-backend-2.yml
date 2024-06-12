@@ -1,7 +1,7 @@
 url: $DLBK2
-status: down
-code: 502
-responseTime: 371
-lastUpdated: 2024-06-12T11:04:17.736Z
+status: up
+code: 200
+responseTime: 284
+lastUpdated: 2024-06-12T12:23:58.045Z
 startTime: 2023-09-12T22:48:16.665Z
 generator: Upptime <https://github.com/upptime/upptime>
