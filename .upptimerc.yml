@@ -143,7 +143,7 @@ sites:
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
   - name: Plex Control Panel
-    url: $PLEXCP
+    url: $PCP
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
     NOTIFICATION_DISCORD: true
