@@ -114,7 +114,7 @@ sites:
       - "User-Agent: VSN-Status-Agent"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
-  - name: Indexer and VPN Service
+  - name: Indexer Service
     url: $INDEXER
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
@@ -130,6 +130,34 @@ sites:
     __dangerous__insecure: true
   - name: Analytics Service
     url: $ANALYTICS
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
+    expectedStatusCodes:
+      - 200
+    headers:
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - "User-Agent: VSN-Status-Agent"
+    __dangerous__disable_verify_peer: true
+    __dangerous__insecure: true
+    - name: Plex Control Panel
+    url: $PLEXCP
+    NOTIFICATION_EMAIL: true
+    NOTIFICATION_EMAIL_SMTP: true
+    NOTIFICATION_DISCORD: true
+    NOTIFICATION_DISCORD_WEBHOOK: true
+    expectedStatusCodes:
+      - 200
+    headers:
+      - "CF-Access-Client-Id: $CFID"
+      - "CF-Access-Client-Secret: $CFSEC"
+      - "User-Agent: VSN-Status-Agent"
+    __dangerous__disable_verify_peer: true
+    __dangerous__insecure: true
+    - name: Platform Analytics Service
+    url: $PAS
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
     NOTIFICATION_DISCORD: true
