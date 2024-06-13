@@ -142,7 +142,7 @@ sites:
       - "User-Agent: VSN-Status-Agent"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
-    - name: Plex Control Panel
+  - name: Plex Control Panel
     url: $PLEXCP
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
@@ -156,7 +156,7 @@ sites:
       - "User-Agent: VSN-Status-Agent"
     __dangerous__disable_verify_peer: true
     __dangerous__insecure: true
-    - name: Platform Analytics Service
+  - name: Platform Analytics Service
     url: $PAS
     NOTIFICATION_EMAIL: true
     NOTIFICATION_EMAIL_SMTP: true
