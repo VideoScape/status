@@ -1,7 +1,7 @@
 url: https://request.vsnet.uk/login
-status: down
-code: 502
-responseTime: 456
-lastUpdated: 2024-08-22T15:56:02.125Z
+status: up
+code: 200
+responseTime: 471
+lastUpdated: 2024-08-22T16:06:42.133Z
 startTime: 2023-09-12T22:48:12.625Z
 generator: Upptime <https://github.com/upptime/upptime>
