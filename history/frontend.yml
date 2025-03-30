@@ -1,7 +1,7 @@
 url: $FRONTEND
-status: down
-code: 502
-responseTime: 3486
-lastUpdated: 2025-03-30T23:00:12.396Z
+status: up
+code: 200
+responseTime: 429
+lastUpdated: 2025-03-30T23:02:44.446Z
 startTime: 2023-09-12T22:20:45.266Z
 generator: Upptime <https://github.com/upptime/upptime>
