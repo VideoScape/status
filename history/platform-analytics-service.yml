@@ -1,7 +1,7 @@
 url: $PAS
-status: up
-code: 200
-responseTime: 773
-lastUpdated: 2025-11-18T12:14:48.825Z
+status: down
+code: 500
+responseTime: 20
+lastUpdated: 2025-11-18T13:16:52.285Z
 startTime: 2024-06-13T21:23:44.977Z
 generator: Upptime <https://github.com/upptime/upptime>
