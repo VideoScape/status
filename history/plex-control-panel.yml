@@ -1,7 +1,7 @@
 url: $PCP
-status: down
-code: 530
-responseTime: 2063
-lastUpdated: 2026-06-20T02:13:31.076Z
+status: up
+code: 200
+responseTime: 2687
+lastUpdated: 2026-06-20T03:23:04.768Z
 startTime: 2024-06-13T21:23:44.378Z
 generator: Upptime <https://github.com/upptime/upptime>
