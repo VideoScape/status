@@ -1,7 +1,7 @@
 url: $MOVIEBKEND
-status: down
-code: 525
-responseTime: 232
-lastUpdated: 2026-08-06T00:12:05.573Z
+status: up
+code: 200
+responseTime: 2109
+lastUpdated: 2026-08-07T00:31:39.295Z
 startTime: 2023-09-12T22:48:10.753Z
 generator: Upptime <https://github.com/upptime/upptime>
